@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo-vercel.png"
 
 export default function Navbar({ scrolled, activeSection, onNavClick }) {
   return (
@@ -11,10 +12,8 @@ export default function Navbar({ scrolled, activeSection, onNavClick }) {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-[#00bd95] to-[#00a080] rounded-lg flex items-center justify-center">
-              <span className="text-xl font-bold">HB</span>
-            </div>
+          <div className="flex items-center">
+            <img src={logo} alt="" className="w-10 " />
             <span className="text-xl font-semibold tracking-tight">
               Portfolio
             </span>
