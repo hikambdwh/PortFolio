@@ -31,7 +31,7 @@ export default function Hero({ onScrollTo }) {
               </p>
               <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
                 Hikam
-                <span className="animate-charcter ml-5"> Baidawih</span>
+                <span className="animate-charcter sm:ml-5 md:ml-5"> Baidawih</span>
               </h1>
             </div>
 
