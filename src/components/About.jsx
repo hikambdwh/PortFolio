@@ -104,7 +104,7 @@ export default function About() {
               <h3 className="text-xl sm:text-2xl font-bold text-[#00bd95] mb-4">
                 Summary
               </h3>
-              <p className="text-gray-300 text-sm sm:text-[15px] md:text-[16px] leading-relaxed text-left sm:text-justify">
+              <p className="text-gray-300 text-sm sm:text-[15px] md:text-[16px] text-justify leading-relaxed text-left sm:text-justify">
                 I am an undergraduate student in Mechatronics and Artificial
                 Intelligence with high motivation, strong analytical skills, and
                 solid problem-solving abilities. I have experience in data
